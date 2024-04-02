@@ -2,9 +2,9 @@ import java.util.List;
 
 public class Alumno {
 
-  String nombre;
+  private String nombre;
 
-  List<Materia> materiasAprobadas;
+  private List<Materia> materiasAprobadas;
 
   public Alumno(String nombre) {
     this.nombre = nombre;

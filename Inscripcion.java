@@ -2,9 +2,9 @@ import java.util.List;
 
 public class Inscripcion {
 
-  Alumno alumno;
+  private Alumno alumno;
 
-  List<Materia> materias;
+  private List<Materia> materias;
   public Inscripcion(Alumno alumno) {
     this.alumno = alumno;
   }
